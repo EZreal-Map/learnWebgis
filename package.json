@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "element-ui": "^2.15.13"
+    "element-ui": "^2.15.13",
+    "esri-loader": "^3.7.0"
   }
 }
