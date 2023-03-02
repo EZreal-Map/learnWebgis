@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <span> suiian </span>
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-
+    <el-container class="app-out-pannel">
+      <el-header class="sys-header">系统标题</el-header>
+      <el-container class="app-content-pannel">
+        <el-aside width="200px" class="sys-menu">左侧边栏</el-aside>
+        <el-main>地图区域</el-main>
+      </el-container>
+    </el-container>
   </div>
 </template>
 
@@ -25,5 +29,23 @@ body,
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+.app-out-pannel,
+.app-content-pannel {
+  /* position: relative;
+  width: 100px; */
+  height: 100%;
+  /* margin: 0; */
+}
+
+.sys-header {
+  background-color: #409EFF;
+  line-height: 60px;
+  color: #fff;
+}
+
+.sys-menu {
+  background-color: #C0C4CC;
 }
 </style>
